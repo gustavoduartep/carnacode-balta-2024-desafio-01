@@ -1,26 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/app.css">
+    <link rel="icon" type="image/png" href="./assets/icon-no-bg.png">
     <title>IMC</title>
 </head>
 
 <body>
-    <div>ITEM 1</div>
-    <div class="flex flex-column">
-        <div>ITEM 2.1</div>
-        <div>ITEM 2.2</div>
-        <div>ITEM 2.3</div>
+
+    <div class="container">
+        <h1>Cálculo de IMC</h1>
+        <div class="flex flex-column">
+            <div><input class="input-text" type="text" placeholder="Altura"/></div>
+            <div><input class="input-text" type="text" placeholder="Peso"/></div>
+            <div><input class="input-text" type="text" placeholder="Sexo"/></div>
+            <div class="mt-15 mb-10 container-checkbox">
+                <input type="checkbox" id="terms" class="input-radio"/>
+                <label for="terms">Eu tenho 65 anos ou mais</label>
+            </div>
+            <div><button class="btn btn-primary">Calcular meu IMC</button></div>
+            <div><button class="btn btn-secondary">Entenda o cálculo</button></div>
+        </div>
     </div>
-    <div>
-        <input class="input" type="text" />
-    </div>
-    <div>ITEM 4</div>
-    <div>ITEM 5</div>
-    <div>ITEM 6</div>
 </body>
 
 </html>
